@@ -4,6 +4,12 @@ def getFitness(pop): #计算适应度的函数
      return  
 
 def translateDNA(pop): #将编码转换为实际值
+    mgPop = pop[]
+    siPop = pop[]
+    scPop = pop[]
+    zrPop = pop[]
+    mnPop = pop[]
+
     return
 
 
@@ -33,7 +39,7 @@ def print_info(pop):
     fitness = get_fitness(pop)
     max_fitness_index = np.argmax(fitness)
     print("max_fitness:", fitness[max_fitness_index])
-    x,y = translateDNA(pop)
+    x,y = translateDNA(pop)  
     print("最优的基因型：", pop[max_fitness_index])
     print("对应的元素含量为：", )
 
